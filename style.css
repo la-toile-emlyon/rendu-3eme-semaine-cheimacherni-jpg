@@ -60,7 +60,8 @@ nav a{
     background-color: #db633072;
     padding: 20px;
     font-size: 20px;
-    color:black;
+    color:#351b0a;
+    border-radius: 4px
 }
 
 .titreetparagraphe h1{
@@ -90,6 +91,7 @@ section.hero {
 
 .listeetimg img{
     height: 300px;
+    border-radius: 5px;
 }
 .listeetimg{
     display: flex;
@@ -120,6 +122,7 @@ h2{
     font-size: 30px;
     text-align: center;
     padding: 30px;
+    padding-left: 0px;
 }
 
 .section3{
@@ -185,7 +188,10 @@ article a{
 .container2{
         margin: auto;
         width: 1080px;
-}
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+ }
 
 .text {
     width: 600px;
@@ -198,7 +204,7 @@ article a{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .gauche {
@@ -206,7 +212,7 @@ article a{
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 h3 {
     font-family: 'Playfair Display';
@@ -294,3 +300,7 @@ strong {
     background-color: #ede3e0;
 }
 
+.listeetimg h2{
+    text-align: left;
+    padding-left: 0px;
+}
