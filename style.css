@@ -1,5 +1,6 @@
 *{
-    margin:0px
+    margin:0px;
+    box-sizing: border-box;
 }
 .container-hero {
     display: flex;
@@ -17,7 +18,7 @@ header{
 header img{
     object-fit: cover;
     width: 200px;
-    height: 200px;
+    height: 93px;
 }
 nav{
     display: flex;
@@ -98,7 +99,6 @@ section.hero {
     gap: 70px;
 }
 .section2{    
-    height: 350px;
     background-color: #ede3e0;
     display: flex
 }
@@ -116,13 +116,14 @@ li{
 
 h2{
     color: #db6330;
-    font-family:"Playfair Display";
+    font-family: "Playfair Display";
     font-size: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 .section3{
     background-color: #db6330;
-    height: 690px;
 }
 img {
     height: 300px;
@@ -132,16 +133,22 @@ img {
 .section3 article{
     background-color: white;
     width: 300px;
-    height: 500px;
     font-family: "Darker Grotesque";
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding-bottom: 30px;
-
 }
+
+article div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    }
+   
 article p{
     text-align: center;
     font-size: 20px;
@@ -165,17 +172,17 @@ article a{
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-weight: 500;
     font-size: 20px;
-}
-.section4{
-    background-color: #ede3e0;
-    height: fit-content;;
+    text-align: center;
+    width: fit-content;
 }
 
-    .container2{
+.section4{
+    background-color: #ede3e0;
+    height: fit-content;
+}
+
+.container2{
         margin: auto;
         width: 1080px;
 }
@@ -186,3 +193,104 @@ article a{
     flex-direction: column;
     gap: 20px;
 }
+.droite {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+h3 {
+    font-family: 'Playfair Display';
+    color: #e85c20;
+    font-size: 25px;
+    font-weight: 600;
+}
+p {
+    font-family: 'Darker Grotesque';
+    font-size: 25px;
+}
+
+.avis {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 30px;
+}
+p.pavis {
+    text-align: center;
+    font-style: italic;
+}
+.boxavis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin: auto;
+    width: 1080px;
+}
+
+.section5 a{
+    background-color: #dfc6ba;
+    color: #2e2a29;
+    font-family: "Darker Grotesque";
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.avis p{
+    font-weight: 300;
+}
+
+.section-padding{
+    padding:50px 0px;
+}
+strong {
+    font-weight: 600;
+}
+.divfooter{
+    background-color: #ede3e0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1080px;
+}
+.lienfooter a{
+    text-decoration: none;
+    font-family:"Darker Grotesque";
+    font-size: 15px;
+    color: #2e2a29;
+}
+.lienfooter a:not(:last-child)::after {
+  content: " •";
+  margin-left: 6px;
+}
+.divfooter p{
+    font-family:"Darker Grotesque";
+    font-size: 15px;
+    color: #2e2a29;
+}
+
+.section-footer{
+    background-color: #ede3e0;
+}
+
