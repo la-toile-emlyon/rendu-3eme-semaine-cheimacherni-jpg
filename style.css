@@ -304,3 +304,35 @@ strong {
     text-align: left;
     padding-left: 0px;
 }
+
+.section6{
+    background-color: #db6330;
+    color:white;
+    padding:100px 0px;
+}
+
+.section6 h3{
+    color: white;
+    font-size: xx-large;
+}
+
+.section6 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 0px;
+}
+.div-last-button{
+padding-bottom: 40px;
+}
+
+.div-last-button a{
+    text-decoration: none;
+    color:antiquewhite;
+    border-color: antiquewhite;
+    padding:20px;
+    border-radius: 5px;
+    background-color: #a74300;
+}
